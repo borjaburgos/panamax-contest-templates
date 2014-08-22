@@ -6,15 +6,15 @@ documentation: |-
   
   ## OpenOCR by tleyden
 
-  [OpenOCR](http://www.openocr.net) makes it simple to host your own OCR REST API. The heavy lifting OCR work is handled by Tesseract OCR. Docker is used to containerize the various components of the service.
+  [OpenOCR](http://www.openocr.net) makes it simple to host your own OCR REST API. OCR stands for Optical character recognition. With OpenOCR you can simply convert any picture of text online until actual text data. The heavy lifting OCR work is handled by Tesseract OCR. Docker is used to containerize the various components of the service. Panamax is used to bundle the components. 
 
   ## RabbitMQ 
 
-  [RabbitMQ](http://www.rabbitmq.com) is robust messaging for applications. 
+  [RabbitMQ](http://www.rabbitmq.com) is a robust messaging for applications. 
 
   ### Miscellaneous
   
-  * This template would not be possible without the amazing work done by tleyden at http://www.openocr.net 
+  * This template would not be possible without the amazing work done by Traun Leyden at [http://www.openocr.net](http://www.openocr.net)
   * The original OpenOCR images built by tleyden were not used for this project in order to leverage the capabilities of Docker links. 
 
   ## Setup & Testing
@@ -60,7 +60,7 @@ documentation: |-
 authors:
 - Graham Carroll
 images:
-- category: Quue
+- category: Queue
   name: Rabbitmq
   source: tutum/rabbitmq:latest
   description: 
